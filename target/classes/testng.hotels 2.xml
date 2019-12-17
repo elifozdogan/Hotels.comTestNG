@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Hotels Test Sanity Suite" verbose="3">
+ 
+	<test name="Hotels Sanity Test">
+		<classes>
+		
+			<class name="com.hotels.tests.HotelsMainPage1Test" />
+			<class name="com.hotels.tests.HotelsInNewYorkPage2Test" />	
+			
+		</classes>
+	</test>
+	
+</suite>
